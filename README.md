@@ -32,17 +32,3 @@ let pubsub = new PubSub();
 let subscription = pubsub.subscribe('eventName', callbackFunction);
 pubsub.publish('eventName', eventData);
 subscription.unsubscribe();
-## Implementation 2
-
-### Description for Implementation 2
-
-This implementation uses a JavaScript object to track subscribers for different events. It provides methods for subscribing to events, unsubscribing from events, and publishing events to notify subscribers.
-
-### Usage for Implementation 2
-
-```javascript
-// Example usage of Implementation 1:
-let pubsub1 = new PubSub();
-let subscription1 = pubsub1.subscribe('eventName', callbackFunction);
-pubsub1.publish('eventName', eventData);
-subscription1.unsubscribe();
